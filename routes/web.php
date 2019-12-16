@@ -19,6 +19,12 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
+
 Route::get('/setting', function () {
     return view('/page/setting');
 });
+
+Route::get('/aboutus', function () {
+    return view('/page/aboutus');
+});
+

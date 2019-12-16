@@ -3,6 +3,9 @@
 @section('content')
 <div class="login-box">
     <div class="row justify-content-center">
+    <div class="avatar" style="text-align: center">
+        <img src="http://localhost/pekaels/resources/img/logoo.png" width="120%" style="border-radius: 50%" />    
+    </div>
         <div class="col-md-8">
             <div class="card">
 
