@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>PeKaeL</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
@@ -12,14 +12,12 @@
         <!-- Styles -->
         <style>
             html, body {
-                background-color: #fff;
+                background-color: #33FFF0;
                 color: #636b6f;
                 font-family: 'Nunito', sans-serif;
                 font-weight: 200;
                 height: 100vh;
-                margin: 0;
-                background-image: url("http://localhost/pekaels/resources/img/bgs.jpg");
-            }
+                margin: 0;            }
 
             .full-height {
                 height: 100vh;
@@ -47,11 +45,12 @@
 
             .title {
                 font-size: 100px;
-                color: white;
+                color: black;
+                font-family: arial;
             }
 
             .links > a {
-                color: white;
+                color: black;
                 padding: 0 25px;
                 font-size: 20px;
                 font-weight: 600;
@@ -82,6 +81,7 @@
             @endif
 
             <div class="content">
+                <img src="http://localhost/pekaels/resources/img/logoo.png" style="border-radius: 50%">
                 <div class="title m-b-md">
                     PeKaeL
                 </div>
@@ -89,10 +89,9 @@
                 <div class="links">
                 
                     
-                    <a href="https://laravel-news.com">MAKANAN</a>
-                    <a href="https://blog.laravel.com">MINUMAN</a>
-                    <a href="https://nova.laravel.com">PAKAIAN</a>
-                    <a href="https://forge.laravel.com">AKSESORIS</a>
+                    <a href="/aboutus">ABOUT US</a>
+                    <a href="https://blog.laravel.com">FOR BUSINESS</a>
+                    <a href="https://nova.laravel.com">PKL NEARBY</a>
                 </div>
             </div>
         </div>
