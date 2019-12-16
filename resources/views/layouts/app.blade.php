@@ -18,6 +18,13 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+
+    <style>
+        body {
+            background-image: url("http://localhost/pekaels/resources/img/bgs.jpg");
+        }
+    </style>
+
 </head>
 <body>
     <div id="app">
