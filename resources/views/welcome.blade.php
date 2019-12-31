@@ -14,7 +14,7 @@
                 </a>
             </li>
             <li class="nav-item">
-                <a href="/aboutus" target="blank" class="nav-link">
+                <a href="/aboutus" class="nav-link">
                     {{ __('About us') }}
                 </a>
             </li>

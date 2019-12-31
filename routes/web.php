@@ -23,12 +23,20 @@ Route::get('/aboutus', function () {
     return view('/page/aboutus');
 });
 
+Route::get('/upload', function () {
+    return view('/page/upload');
+});
+
 Route::get('/bisnis', function () {
     return view('/page/bisnis');
 });
 
 Route::get('/nearby', function () {
     return view('/page/nearby');
+});Auth::routes();
+
+Route::get('/makanan', function () {
+    return view('/page/makanan');
 });Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home')->middleware('auth');
