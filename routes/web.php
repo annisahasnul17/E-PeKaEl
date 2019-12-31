@@ -28,3 +28,7 @@ Route::get('/aboutus', function () {
     return view('/page/aboutus');
 });
 
+Route::get('/maps', function () {
+    return view('/page/maps');
+});
+
