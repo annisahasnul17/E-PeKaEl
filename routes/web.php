@@ -16,7 +16,8 @@ Route::get('/', function () {
 });
 
 Auth::routes();
-
+Route::get('upload','ImageController@index');
+Route::post('upload','ImageController@upload');
 Route::get('/home', 'HomeController@index')->name('home');
 
 Route::get('/aboutus', function () {

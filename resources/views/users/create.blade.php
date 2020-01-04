@@ -1,4 +1,4 @@
-@extends('layouts.app', ['activePage' => 'user-management', 'titlePage' => __('User Management')])
+@extends('layouts.app', ['activePage' => 'Upload Bukti Pembayaran', 'titlePage' => __('User Management')])
 
 @section('content')
   <div class="content">
@@ -21,11 +21,9 @@
                   </div>
                 </div>
               <div class="card-footer ml-auto mr-auto" style="text-align: center;">
-                <button type="submit" style="text-align: center;" class="btn btn-primary">{{ __('Upload') }}</button>
+              <a href="/upload" class="btn btn-sm btn-primary">{{ __('Upload') }}</a>
               </div>
-              <div class="card-footer ml-auto mr-auto" style="text-align: center;">
-                <button type="submit" style="text-align: center;" class="btn btn-primary">{{ __('Upload Bukti') }}</button>
-              </div>
+              
             </div>
           </form>
         </div>
