@@ -20,7 +20,7 @@
             </li>
             <li class="nav-item">
                 <a href="/bisnis" class="nav-link">
-                    {{ __('Bussiness') }}
+                    {{ __('Business') }}
                 </a>
             </li>
             <li class="nav-item">
