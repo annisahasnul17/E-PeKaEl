@@ -16,20 +16,13 @@ Route::get('/', function () {
 });
 
 Auth::routes();
-
+Route::get('upload','ImageController@index');
+Route::post('upload','ImageController@upload');
 Route::get('/home', 'HomeController@index')->name('home');
-
-
-Route::get('/setting', function () {
-    return view('/page/setting');
-});
 
 Route::get('/aboutus', function () {
     return view('/page/aboutus');
 });
-
-Route::get('/maps', function () {
-    return view('/page/maps');
 
 Route::get('/upload', function () {
     return view('/page/upload');
