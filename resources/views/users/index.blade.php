@@ -25,7 +25,7 @@
                 @endif
                 <div class="row">
                   <div class="col-12 text-right">
-                    <a href="{{ route('user.create') }}" class="btn btn-sm btn-primary">{{ __('Upload Bukti Pembayaran') }}</a>
+                    <a href="/upload" class="btn btn-sm btn-primary">{{ __('Upload Bukti Pembayaran') }}</a>
                   </div>
                 </div>
                 <div class="table-responsive">
