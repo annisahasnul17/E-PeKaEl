@@ -74,9 +74,7 @@
               <div class="card-icon">
               <img src="http://localhost/pekaels/resources/img/pakaian.png" height="60" alt=""/>
               </div>
-              <h3 class="card-title">
-                Pakaian
-              </h3>
+              <h3 class="card-title"> Pakaian </h3>
             </div>
             <div class="card-footer">
               <div class="stats">
@@ -119,7 +117,7 @@
           <div class="card card-stats">
             <div class="card-header card-header-info card-header-icon">
               <div class="card-icon">
-                <img src="http://localhost/pekaels/resources/img/pulsa1.png" style="background-color: white; border-radius: 10%" height="60" alt=""/>
+                <img src="http://localhost/pekaels/resources/img/pulsa1.png"  height="60" alt=""/>
               </div>
               <h3 class="card-title">Pulsa & Top Up</h3>
             </div>
