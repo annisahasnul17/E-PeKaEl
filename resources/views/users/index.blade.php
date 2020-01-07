@@ -8,7 +8,7 @@
             <div class="card">
               <div class="card-header card-header-primary">
                 <h4 class="card-title ">{{ __('Bayar Iuran') }}</h4>
-                <p class="card-category"> {{ __('Bayar Iuranmu Disini !!!') }}</p>
+                <p class="card-category"> {{ __('Upload Bukti Pembayaranmu Sekarang !!!') }}</p>
               </div>
               <div class="card-body">
                 @if (session('status'))
@@ -41,7 +41,7 @@
                         {{ __('Tanggal Bayar') }}
                       </th>
                       <th class="text-right">
-                        {{ __('Actions') }}
+                        {{ __('History') }}
                       </th>
                     </thead>
                     <tbody>
