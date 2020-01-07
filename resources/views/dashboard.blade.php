@@ -31,7 +31,7 @@
             </div>
             <div class="card-footer">
               <div class="stats">
-                <a href="#pablo">View...</a>
+                <a href="/minuman">View...</a>
               </div>
             </div>
           </div>
@@ -46,7 +46,7 @@
             </div>
             <div class="card-footer">
               <div class="stats">
-                <a href="#pablo">View...</a>
+                <a href="/aksesoris">View...</a>
               </div>
             </div>
           </div>
@@ -61,7 +61,7 @@
             </div>
             <div class="card-footer">
               <div class="stats">
-                <a href="#pablo">View...</a>
+                <a href="/buah">View...</a>
               </div>
             </div>
           </div>
@@ -78,7 +78,7 @@
             </div>
             <div class="card-footer">
               <div class="stats">
-                <a href="#pablo">View...</a>
+                <a href="/pakaian">View...</a>
               </div>
             </div>
           </div>
@@ -93,7 +93,7 @@
             </div>
             <div class="card-footer">
               <div class="stats">
-                <a href="#pablo">View...</a>
+                <a href="/mainan">View...</a>
               </div>
             </div>
           </div>
@@ -108,7 +108,7 @@
             </div>
             <div class="card-footer">
               <div class="stats">
-                <a href="#pablo">View...</a>
+                <a href="/peralatandapur">View...</a>
               </div>
             </div>
           </div>
@@ -123,7 +123,7 @@
             </div>
             <div class="card-footer">
               <div class="stats">
-                <a href="#pablo">View...</a>
+                <a href="/pulsa">View...</a>
               </div>
             </div>
           </div>

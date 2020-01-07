@@ -26,7 +26,7 @@
                 @endif
                 <div class="row">
                   <div class="col-12 text-right">
-                    <a href="{{ route('user.create') }}" class="btn btn-sm btn-primary">{{ __('Upload Bukti Pembayaran') }}</a>
+                    <a href="/upload" class="btn btn-sm btn-primary">{{ __('Upload Bukti Pembayaran') }}</a>
                   </div>
                 </div>
                 <div class="table-responsive">
@@ -42,7 +42,7 @@
                         {{ __('Tanggal Bayar') }}
                       </th>
                       <th class="text-right">
-                        {{ __('History') }}
+                        {{ __('Status') }}
                       </th>
                     </thead>
                     <tbody>
@@ -52,23 +52,16 @@
                             {{ $user->name }}
                           </td>
                           <td>
-                            {{ $user->email }}
+                            Pembayaran Anda Sedang Ditinjau
                           </td>
                           <td>
                             {{ $user->created_at->format('Y-m-d') }}
                           </td>
                           <td class="td-actions text-right">
-                            @if ($user->id != auth()->id())
-                              <form action="{{ route('user.destroy', $user) }}" method="post">
-                                  @csrf
-                                  @method('delete')
-                              </form>
-                            @else
                               <a rel="tooltip" class="btn btn-success btn-link" href="{{ route('profile.edit') }}" data-original-title="" title="">
-                                <i class="material-icons">edit</i>
+                                <i class="material-icons">done</i>
                                 <div class="ripple-container"></div>
                               </a>
-                            @endif
                           </td>
                         </tr>
                       @endforeach
