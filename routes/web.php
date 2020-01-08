@@ -36,6 +36,8 @@ Route::get('/nearby', function () {
     return view('/page/nearby');
 });Auth::routes();
 
+Route::get('/history','ImgController@index');
+
 Route::get('/makanan', function () {
     return view('/page/makanan');
 });Auth::routes();

@@ -14,8 +14,24 @@
         <div id='map'></div>
         <script> 
             L.mapbox.accessToken = 'pk.eyJ1IjoicmlvbmNvb2wxMjEwMTIxMCIsImEiOiJjazRpZXNraXEwb2thM2VsYnRmbG5tM2tyIn0.116T84JhTJMzMN8BjIM7iA';
-            var map = L.mapbox.map('map', 'mapbox.streets').setView([5.5718582,95.3714915], 16);
-            omnivore.csv('bandung.csv').addTo(map);
+            var map = L.mapbox.map('map', 'mapbox.streets', {drawControl: true}).setView([5.5718582,95.3714915], 16).addControl(L.mapbox.geocoderControl('mapbox.places'));
+
+            var featureGroup = L.featureGroup().addTo(map);
+
+        var drawControl = new L.Control.Draw({
+            edit: {
+                featureGroup: featureGroup
+            }
+        }).addTo(map);
+
+        function onDragEnd() {
+var lngLat = marker.getLngLat();
+coordinates.style.display = 'block';
+coordinates.innerHTML =
+'Longitude: ' + lngLat.lng + '<br />Latitude: ' + lngLat.lat;
+}
+ 
+marker.on('dragend', onDragEnd);
 
             var polylinePoints = [
                 [5.58562,95.35544],

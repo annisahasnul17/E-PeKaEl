@@ -26,11 +26,18 @@
                 <span class="sidebar-normal">{{ __('Profile') }} </span>
               </a>
             </li>
-            <li class="nav-item{{ $activePage ?? '' ?? '' == 'user-management' ? ' active' : '' }}">
-              <a class="nav-link" href="{{ route('user.index') }}">
+            <li class="nav-item{{ $activePage ?? '' ?? '' == 'upload' ? ' active' : '' }}">
+              <a class="nav-link" href="/upload">
                 <span class="sidebar-mini">  </span>
 				<i class="material-icons">money</i>
                 <span class="sidebar-normal"> {{ __('Bayar Iuran') }} </span>
+              </a>
+            </li>
+            <li class="nav-item{{ $activePage ?? '' ?? '' == 'history' ? ' active' : '' }}">
+              <a class="nav-link" href="/history">
+                <span class="sidebar-mini">  </span>
+				<i class="material-icons">history</i>
+                <span class="sidebar-normal"> {{ __('History Pembayaran') }} </span>
               </a>
             </li>
           </ul>
