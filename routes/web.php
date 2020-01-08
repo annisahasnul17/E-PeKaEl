@@ -40,6 +40,34 @@ Route::get('/makanan', function () {
     return view('/page/makanan');
 });Auth::routes();
 
+Route::get('/minuman', function () {
+    return view('/page/minuman');
+});Auth::routes();
+
+Route::get('/aksesoris', function () {
+    return view('/page/aksesoris');
+});Auth::routes();
+
+Route::get('/buah', function () {
+    return view('/page/buah');
+});Auth::routes();
+
+Route::get('/pakaian', function () {
+    return view('/page/pakaian');
+});Auth::routes();
+
+Route::get('/mainan', function () {
+    return view('/page/mainan');
+});Auth::routes();
+
+Route::get('/peralatandapur', function () {
+    return view('/page/peralatandapur');
+});Auth::routes();
+
+Route::get('/pulsa', function () {
+    return view('/page/pulsa');
+});Auth::routes();
+
 Route::get('/home', 'HomeController@index')->name('home')->middleware('auth');
 
 Route::group(['middleware' => 'auth'], function () {

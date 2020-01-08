@@ -31,7 +31,7 @@
             </div>
             <div class="card-footer">
               <div class="stats">
-                <a href="#pablo">View...</a>
+                <a href="/minuman">View...</a>
               </div>
             </div>
           </div>
@@ -46,7 +46,7 @@
             </div>
             <div class="card-footer">
               <div class="stats">
-                <a href="#pablo">View...</a>
+                <a href="/aksesoris">View...</a>
               </div>
             </div>
           </div>
@@ -61,7 +61,7 @@
             </div>
             <div class="card-footer">
               <div class="stats">
-                <a href="#pablo">View...</a>
+                <a href="/buah">View...</a>
               </div>
             </div>
           </div>
@@ -80,8 +80,7 @@
             </div>
             <div class="card-footer">
               <div class="stats">
-                <i class="material-icons text-danger">warning</i>
-                <a href="#pablo">Get More Space...</a>
+                <a href="/pakaian">View...</a>
               </div>
             </div>
           </div>
@@ -96,7 +95,7 @@
             </div>
             <div class="card-footer">
               <div class="stats">
-                <i class="material-icons">date_range</i> Last 24 Hours
+                <a href="/mainan">View...</a>
               </div>
             </div>
           </div>
@@ -111,7 +110,7 @@
             </div>
             <div class="card-footer">
               <div class="stats">
-                <i class="material-icons">local_offer</i> Tracked from Github
+                <a href="/peralatandapur">View...</a>
               </div>
             </div>
           </div>
@@ -126,7 +125,7 @@
             </div>
             <div class="card-footer">
               <div class="stats">
-                <i class="material-icons">update</i> Just Updated
+                <a href="/pulsa">View...</a>
               </div>
             </div>
           </div>
