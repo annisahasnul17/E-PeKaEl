@@ -8,7 +8,7 @@
             <div class="card">
               <div class="card-header card-header-primary">
                 <h4 class="card-title ">{{ __('Bayar Iuran') }}</h4>
-                <p class="card-category"> {{ __('Lakukan pembayaran ke rekening Mandiri (070 00 0187772 3)') }}</p>
+                <p class="card-category"> {{ __('Lakukan pembayaran ke rekening Mandiri (070 00 0187772 3 a/n Anjani) ') }}</p>
 				<p class="card-category"> {{ __('Upload bukti pembayaranmu disini!') }}</p>
               </div>
               <div class="card-body">
