@@ -16,13 +16,13 @@
             var map = L.mapbox.map('map', 'mapbox.streets').setView([5.5718582,95.3714915], 15);
             omnivore.csv('bandung.csv').addTo(map);
 
-            L.marker([5.571413,95.3688497], {draggable: 'true'}).addTo(map);
-            L.marker([5.5715845,95.3655579], {draggable: 'true'}).addTo(map);
-            L.marker([5.5730365,95.3615739], {draggable: 'true'}).addTo(map);
-            L.marker([5.5701273,95.3752217], {draggable: 'true'}).addTo(map);
-            L.marker([5.5700745,95.3747893], {draggable: 'true'}).addTo(map);
-            L.marker([5.5700971,95.3738562], {draggable: 'true'}).addTo(map);
-            L.marker([5.5700971,95.3738562], {draggable: 'true'}).addTo(map);
+            L.marker([5.571413,95.3688497], {draggable: 'true'}).addTo(map).bindPopup('<img src="{{ asset('images') }}/ludo.jpg" alt="" height="100" style="padding-right: 10px" /><h2 style="text-align:center;">Ludo</h2>').openPopup(); 
+            L.marker([5.5715845,95.3655579], {draggable: 'true'}).addTo(map).bindPopup('<img src="{{ asset('images') }}/boneka.jpg" alt="" height="100" style="padding-right: 10px" /><h2 style="text-align:center;">Boneka</h2>').openPopup();  
+            L.marker([5.5730365,95.3615739], {draggable: 'true'}).addTo(map).bindPopup('<img src="{{ asset('images') }}/mainananak.jpg" alt="" height="100" style="padding-right: 10px" /><h2 style="text-align:center;">Mainan Anak</h2>').openPopup();  
+            L.marker([5.5701273,95.3752217], {draggable: 'true'}).addTo(map).bindPopup('<img src="{{ asset('images') }}/bola.jpg" alt="" height="100" style="padding-right: 10px" /><h2 style="text-align:center;">Bola</h2>').openPopup();  
+            L.marker([5.5700745,95.3747893], {draggable: 'true'}).addTo(map).bindPopup('<img src="{{ asset('images') }}/balon.jpg" alt="" height="100" style="padding-right: 10px" /><h2 style="text-align:center;">Balon</h2>').openPopup(); 
+            L.marker([5.5700971,95.3738562], {draggable: 'true'}).addTo(map).bindPopup('<img src="{{ asset('images') }}/lego.jpg" alt="" height="100" style="padding-right: 10px" /><h2 style="text-align:center;">Lego</h2>').openPopup(); 
+            L.marker([5.5700971,95.3738562], {draggable: 'true'}).addTo(map).bindPopup('<img src="{{ asset('images') }}/rubik.jpg" alt="" height="100" style="padding-right: 10px" /><h2 style="text-align:center;">Rubik</h2>').openPopup(); 
         </script>
 </body>
-@endsection 
+@endsection  

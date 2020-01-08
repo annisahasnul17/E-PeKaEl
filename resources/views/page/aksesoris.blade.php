@@ -16,13 +16,12 @@
             var map = L.mapbox.map('map', 'mapbox.streets').setView([5.5718582,95.3714915], 15);
             omnivore.csv('bandung.csv').addTo(map);
 
-            L.marker([5.571413,95.3688497], {draggable: 'true'}).addTo(map);
-            L.marker([5.5715845,95.3655579], {draggable: 'true'}).addTo(map);
-            L.marker([5.5730365,95.3615739], {draggable: 'true'}).addTo(map);
-            L.marker([5.5701273,95.3752217], {draggable: 'true'}).addTo(map);
-            L.marker([5.5700745,95.3747893], {draggable: 'true'}).addTo(map);
-            L.marker([5.5700971,95.3738562], {draggable: 'true'}).addTo(map);
-            L.marker([5.5700971,95.3738562], {draggable: 'true'}).addTo(map);
+            L.marker([5.571413,95.3688497], {draggable: 'true'}).addTo(map).bindPopup('<img src="{{ asset('images') }}/gelang.jpg" alt="" height="100" style="padding-right: 10px" /><h2 style="text-align:center;">Gelang Tangan</h2>').openPopup();  
+            L.marker([5.5715845,95.3655579], {draggable: 'true'}).addTo(map).bindPopup('<img src="{{ asset('images') }}/batucincin.jpg" alt="" height="100" style="padding-right: 10px" /><h2 style="text-align:center;">Batu Cincin</h2>').openPopup(); 
+            L.marker([5.5730365,95.3615739], {draggable: 'true'}).addTo(map).bindPopup('<img src="{{ asset('images') }}/kauskaki.jpg" alt="" height="100" style="padding-right: 10px" /><h2 style="text-align:center;">Kaus Kaki</h2>').openPopup(); 
+            L.marker([5.5701273,95.3752217], {draggable: 'true'}).addTo(map).bindPopup('<img src="{{ asset('images') }}/peci.jpg" alt="" height="100" style="padding-right: 10px" /><h2 style="text-align:center;">Peci</h2>').openPopup(); 
+            L.marker([5.5700745,95.3747893], {draggable: 'true'}).addTo(map).bindPopup('<img src="{{ asset('images') }}/topi.jpg" alt="" height="100" style="padding-right: 10px" /><h2 style="text-align:center;">Topi</h2>').openPopup(); 
+            L.marker([5.5700971,95.3738562], {draggable: 'true'}).addTo(map).bindPopup('<img src="{{ asset('images') }}/kacamata.jpg" alt="" height="100" style="padding-right: 10px" /><h2 style="text-align:center;">Kaca Mata</h2>').openPopup(); 
         </script>
 </body>
 @endsection 

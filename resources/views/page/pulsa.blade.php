@@ -16,13 +16,13 @@
             var map = L.mapbox.map('map', 'mapbox.streets').setView([5.5718582,95.3714915], 15);
             omnivore.csv('bandung.csv').addTo(map);
 
-            L.marker([5.571413,95.3688497], {draggable: 'true'}).addTo(map);
-            L.marker([5.5715845,95.3655579], {draggable: 'true'}).addTo(map);
-            L.marker([5.5730365,95.3615739], {draggable: 'true'}).addTo(map);
-            L.marker([5.5701273,95.3752217], {draggable: 'true'}).addTo(map);
-            L.marker([5.5700745,95.3747893], {draggable: 'true'}).addTo(map);
-            L.marker([5.5700971,95.3738562], {draggable: 'true'}).addTo(map);
-            L.marker([5.5700971,95.3738562], {draggable: 'true'}).addTo(map);
+            L.marker([5.571413,95.3688497], {draggable: 'true'}).addTo(map).bindPopup('<img src="{{ asset('images') }}/pulsa1.jpg" alt="" height="100" style="padding-right: 10px" /><h2 style="text-align:center;">Ingin Jaya Call</h2>').openPopup(); 
+            L.marker([5.5715845,95.3655579], {draggable: 'true'}).addTo(map).bindPopup('<img src="{{ asset('images') }}/pulsa2.jpg" alt="" height="100" style="padding-right: 10px" /><h2 style="text-align:center;">Arjuna Call</h2>').openPopup(); 
+            L.marker([5.5730365,95.3615739], {draggable: 'true'}).addTo(map).bindPopup('<img src="{{ asset('images') }}/pulsa3.jpg" alt="" height="100" style="padding-right: 10px" /><h2 style="text-align:center;">Harapan Palsu Ponsel</h2>').openPopup(); 
+            L.marker([5.5701273,95.3752217], {draggable: 'true'}).addTo(map).bindPopup('<img src="{{ asset('images') }}/pulsa4.jpg" alt="" height="100" style="padding-right: 10px" /><h2 style="text-align:center;">Bunga Desa Ponsel</h2>').openPopup(); 
+            L.marker([5.5700745,95.3747893], {draggable: 'true'}).addTo(map).bindPopup('<img src="{{ asset('images') }}/pulsa5.jpg" alt="" height="100" style="padding-right: 10px" /><h2 style="text-align:center;">UKhti Ponsel</h2>').openPopup(); 
+            L.marker([5.5700971,95.3738562], {draggable: 'true'}).addTo(map).bindPopup('<img src="{{ asset('images') }}/pulsa6.jpg" alt="" height="100" style="padding-right: 10px" /><h2 style="text-align:center;">Kenangan Ponsel</h2>').openPopup(); 
+            L.marker([5.5700971,95.3738562], {draggable: 'true'}).addTo(map).bindPopup('<img src="{{ asset('images') }}/pulsa7.jpg" alt="" height="100" style="padding-right: 10px" /><h2 style="text-align:center;">Jaya Call</h2>').openPopup(); 
         </script>
 </body>
-@endsection 
+@endsection  
