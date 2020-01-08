@@ -19,13 +19,13 @@
             omnivore.csv('bandung.csv').addTo(map);
 
             
-            L.marker([5.571413,95.3688497], {draggable: 'true'}).addTo(map).bindPopup('<img src="{{ asset('images') }}/estebu.jpg" alt="" height="100" style="padding-right: 10px" /><h2 style="text-align:center;">Es Tebu</h2>').openPopup();
-            L.marker([5.5715845,95.3655579], {draggable: 'true'}).addTo(map).bindPopup('<img src="{{ asset('images') }}/jus.jpg" alt="" height="100" style="padding-right: 10px" /><h2 style="text-align:center;">Jus Buah</h2>').openPopup();
-            L.marker([5.5730365,95.3615739], {draggable: 'true'}).addTo(map).bindPopup('<img src="{{ asset('images') }}/pop.jpg" alt="" height="100" style="padding-right: 10px" /><h2 style="text-align:center;">Pop Ice</h2>').openPopup();
-            L.marker([5.5701273,95.3752217], {draggable: 'true'}).addTo(map).bindPopup('<img src="http://localhost/pekaels/public/images/capcin.jpg" alt="" height="100" style="padding-right: 10px" /><h2 style="text-align:center;">Cap Cin</h2>').openPopup();
-            L.marker([5.5700745,95.3747893], {draggable: 'true'}).addTo(map).bindPopup('<img src="http://localhost/pekaels/public/images/cendol.jpg" alt="" height="100" style="padding-right: 10px" /><h2 style="text-align:center;">Cendol</h2>').openPopup();
-            L.marker([5.5700971,95.3738562], {draggable: 'true'}).addTo(map).bindPopup('<img src="http://localhost/pekaels/public/images/eskelapamuda.jpg" alt="" height="100" style="padding-right: 10px" /><h2 style="text-align:center;">Kelapa Muda</h2>').openPopup();
-            L.marker([5.5700971,95.3738562], {draggable: 'true'}).addTo(map).bindPopup('<img src="http://localhost/pekaels/public/images/thaitea.jpg" alt="" height="100" style="padding-right: 10px" /><h2 style="text-align:center;">Thai Tea</h2>').openPopup();
+            L.marker([5.571413,95.3688497]).addTo(map).bindPopup('<img src="{{ asset('images') }}/estebu.jpg" alt="" height="100" style="padding-right: 10px" /><h2 style="text-align:center;">Es Tebu</h2>').openPopup();
+            L.marker([5.5715845,95.3655579]).addTo(map).bindPopup('<img src="{{ asset('images') }}/jus.jpg" alt="" height="100" style="padding-right: 10px" /><h2 style="text-align:center;">Jus Buah</h2>').openPopup();
+            L.marker([5.5730365,95.3615739]).addTo(map).bindPopup('<img src="{{ asset('images') }}/pop.jpg" alt="" height="100" style="padding-right: 10px" /><h2 style="text-align:center;">Pop Ice</h2>').openPopup();
+            L.marker([5.5701273,95.3752217]).addTo(map).bindPopup('<img src="http://localhost/pekaels/public/images/capcin.jpg" alt="" height="100" style="padding-right: 10px" /><h2 style="text-align:center;">Cap Cin</h2>').openPopup();
+            L.marker([5.5700745,95.3747893]).addTo(map).bindPopup('<img src="http://localhost/pekaels/public/images/cendol.jpg" alt="" height="100" style="padding-right: 10px" /><h2 style="text-align:center;">Cendol</h2>').openPopup();
+            L.marker([5.5700971,95.3738562]).addTo(map).bindPopup('<img src="http://localhost/pekaels/public/images/eskelapamuda.jpg" alt="" height="100" style="padding-right: 10px" /><h2 style="text-align:center;">Kelapa Muda</h2>').openPopup();
+            L.marker([5.5700971,95.3738562]).addTo(map).bindPopup('<img src="http://localhost/pekaels/public/images/thaitea.jpg" alt="" height="100" style="padding-right: 10px" /><h2 style="text-align:center;">Thai Tea</h2>').openPopup();
 
             
         </script>
