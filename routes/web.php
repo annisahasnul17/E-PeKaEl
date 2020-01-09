@@ -68,7 +68,6 @@ Route::get('/pulsa', function () {
     return view('/page/pulsa');
 });Auth::routes();
 
-
 Route::get('/home', 'HomeController@index')->name('home')->middleware('auth');
 
 Route::group(['middleware' => 'auth'], function () {
