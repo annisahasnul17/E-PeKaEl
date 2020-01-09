@@ -24,6 +24,14 @@ Route::get('/aboutus', function () {
     return view('/page/aboutus');
 });
 
+Route::get('/mapss', function () {
+    return view('/page/mapss');
+});
+
+Route::get('/tandai', function () {
+    return view('/page/tandai');
+});
+
 Route::get('/upload', function () {
     return view('/page/upload');
 });

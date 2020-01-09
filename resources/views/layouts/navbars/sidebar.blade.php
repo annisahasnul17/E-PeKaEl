@@ -44,14 +44,19 @@
         </div>
      
      
-      <li class="nav-item{{ $activePage ?? '' ?? '' == 'map' ? ' active' : '' }}">
-        <a class="nav-link" href="{{ route('map') }}">
+      <li class="nav-item{{ $activePage ?? '' ?? '' == 'mapss' ? ' active' : '' }}">
+        <a class="nav-link" href="/mapss">
           <i class="material-icons">location_ons</i>
             <p>{{ __('Rekomendasi') }}</p>
         </a>
       </li>
       
-     
+      <li class="nav-item{{ $activePage ?? '' ?? '' == 'tandai' ? ' active' : '' }}">
+        <a class="nav-link" href="/tandai">
+          <i class="material-icons">location_ons</i>
+            <p>{{ __('Tandai Lokasi') }}</p>
+        </a>
+      </li>
      
     </ul>
   </div>
