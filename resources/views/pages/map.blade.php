@@ -14,8 +14,21 @@
         <div id='map'></div>
         <script> 
             L.mapbox.accessToken = 'pk.eyJ1IjoicmlvbmNvb2wxMjEwMTIxMCIsImEiOiJjazRpZXNraXEwb2thM2VsYnRmbG5tM2tyIn0.116T84JhTJMzMN8BjIM7iA';
-            var map = L.mapbox.map('map', 'mapbox.streets').setView([5.5718582,95.3714915], 16);
-            omnivore.csv('bandung.csv').addTo(map);
+            var map = L.mapbox.map('map', 'mapbox.streets', {drawControl: true}).setView([5.5718582,95.3714915], 16).addControl(L.mapbox.geocoderControl('mapbox.places'));
+
+            L.mapbox.featureLayer({
+                type: 'Feature',
+                geometry: {
+                    type: 'Point',
+                    coordinates: [35, 77]
+                },
+                properties: {
+                    title: 'mytitle',
+                    description: 'desc',
+                    'marker-size': 'large',
+                    'marker-color': '#f0a'
+                }
+            }).addTo(map);
 
             var polylinePoints = [
                 [5.58562,95.35544],

@@ -10,6 +10,10 @@
                         <h4 class="card-title">{{ __('Upload Bukti Pembayaran') }}</h4>
                         <p class="card-category"></p>
                     </div>
+                    <div style="text-align: center">
+                        <h6><br>Lakukan pembayaran</h6>
+                        <p>Mandiri<br> (070 00 0187772 3)</p>
+                    </div>
                     <form action="{{ url('upload') }}" method="post" enctype="multipart/form-data" style="text-align: center; padding-top: 20px">
                         {{ csrf_field() }}
                         <input type="file" name="image"> 

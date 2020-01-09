@@ -15,7 +15,7 @@ class ImageController extends Controller
             $name   = $resorce->getClientOriginalName();
             $resorce->move(\base_path() ."/public/images", $name);
             $save = DB::table('images')->insert(['image' => $name]);
-            echo "Gambar berhasil di upload <a href='/user'>Kembali Ke Beranda</a>";
+            echo "Gambar berhasil di upload <a href='/history'>Lihat History Pembayaran</a>";
             header("location: http://127.0.0.1:8000/home");
         }else{
             echo "Gagal upload gambar";
