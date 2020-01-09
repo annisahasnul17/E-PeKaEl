@@ -27,7 +27,6 @@
             L.marker([5.5700971,95.3738562]).addTo(map).bindPopup('<img src="http://localhost/pekaels/public/images/eskelapamuda.jpg" alt="" height="100" style="padding-right: 10px" /><h2 style="text-align:center;">Kelapa Muda</h2>').openPopup();
             L.marker([5.5700971,95.3738562]).addTo(map).bindPopup('<img src="http://localhost/pekaels/public/images/thaitea.jpg" alt="" height="100" style="padding-right: 10px" /><h2 style="text-align:center;">Thai Tea</h2>').openPopup();
 
-            
         </script>
 </body>
 @endsection 

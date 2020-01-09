@@ -52,8 +52,10 @@
               </label>
             </div>
           </div>
+		  <h4 class="card-title" style="text-align: center;">{{ __('Log In sebagai') }}</h4>
           <div class="card-footer justify-content-center">
-            <button type="submit" class="btn btn-primary btn-link btn-lg">{{ __('Login') }}</button>
+			<button type="submit" class="btn btn-primary btn-link btn-lg">{{ __('Penjual') }}</button>
+			<button type="submit" class="btn btn-primary btn-link btn-lg">{{ __('Pembeli') }}</button>
           </div>
         </div>
       </form>

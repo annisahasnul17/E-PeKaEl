@@ -9,8 +9,8 @@
       <div class="container-fluid">
         <ul class="nav" style="padding-left: 300px; font-size: 125%">
             <li class="nav-item">
-                <a href="https://creative-tim.com" target="blank" class="nav-link">
-                    {{ __('Help Center') }}
+                <a href="" target="blank" class="nav-link">
+                    {{ __('Admin') }}
                 </a>
             </li>
             <li class="nav-item">
@@ -20,7 +20,7 @@
             </li>
             <li class="nav-item">
                 <a href="/bisnis" class="nav-link">
-                    {{ __('Bussiness') }}
+                    {{ __('Business') }}
                 </a>
             </li>
             <li class="nav-item">

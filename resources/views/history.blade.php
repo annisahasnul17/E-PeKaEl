@@ -7,9 +7,7 @@
         <div class="col-md-12">
             <div class="card">
               <div class="card-header card-header-primary">
-                <h4 class="card-title ">{{ __('Bayar Iuran') }}</h4>
-                <p class="card-category"> {{ __('Lakukan pembayaran ke rekening Mandiri (070 00 0187772 3 a/n Anjani) ') }}</p>
-				<p class="card-category"> {{ __('Upload bukti pembayaranmu disini!') }}</p>
+                <h4 class="card-title ">{{ __('History Pembayaran') }}</h4>
               </div>
               <div class="card-body">
                 @if (session('status'))
@@ -24,16 +22,13 @@
                     </div>
                   </div>
                 @endif
-                <div class="row">
-                  <div class="col-12 text-right">
-                    <a href="/upload" class="btn btn-sm btn-primary">{{ __('Upload Bukti Pembayaran') }}</a>
-                  </div>
+  
                 </div>
                 <div class="table-responsive">
                   <table class="table">
                     <thead class=" text-primary">
                       <th>
-                          {{ __('Nama PKL') }}
+                          {{ __('ID') }}
                       </th>
                       <th>
                         {{ __('Deskripsi') }}
@@ -46,22 +41,19 @@
                       </th>
                     </thead>
                     <tbody>
-                      @foreach($users as $user)
+                      @foreach($images as $img)
                         <tr>
                           <td>
-                            {{ $user->name }}
+                            {{ $img->id }}
                           </td>
                           <td>
                             Pembayaran Anda Sedang Ditinjau
                           </td>
                           <td>
-                            {{ $user->created_at->format('Y-m-d') }}
+                            {{ $img->dibuat }}
                           </td>
                           <td class="td-actions text-right">
-                              <a rel="tooltip" class="btn btn-success btn-link" href="{{ route('profile.edit') }}" data-original-title="" title="">
                                 <i class="material-icons">done</i>
-                                <div class="ripple-container"></div>
-                              </a>
                           </td>
                         </tr>
                       @endforeach
